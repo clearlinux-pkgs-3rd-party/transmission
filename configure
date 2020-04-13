@@ -1,0 +1,6 @@
+enable-utp
+enable-daemon
+with-systemd-daemon
+enable-nls
+enable-cli
+enable-external-natpmp

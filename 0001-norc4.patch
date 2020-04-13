@@ -1,0 +1,12 @@
+diff -Nru a/libtransmission/crypto-utils-openssl.c b/libtransmission/crypto-utils-openssl.c
+--- a/libtransmission/crypto-utils-openssl.c	2018-05-01 19:18:29.000000000 +0200
++++ b/libtransmission/crypto-utils-openssl.c	2020-04-13 18:29:21.508045188 +0200
+@@ -184,7 +184,7 @@
+ {
+   EVP_CIPHER_CTX * handle = EVP_CIPHER_CTX_new ();
+ 
+-  if (check_result (EVP_CipherInit_ex (handle, EVP_rc4 (), NULL, NULL, NULL, -1)))
++  if (check_result (EVP_CipherInit_ex (handle, EVP_aes_256_cfb (), NULL, NULL, NULL, -1)))
+     return handle;
+ 
+   EVP_CIPHER_CTX_free (handle);

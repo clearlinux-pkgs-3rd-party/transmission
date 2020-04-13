@@ -1,0 +1,24 @@
+Configure miss: lrintf
+Configure miss: htonll
+Configure miss: ntohll
+Configure miss: _configthreadlocale
+Configure miss: library containing quotacursor_skipidtype
+Configure miss: sys/event.h usability
+Configure miss: sys/event.h presence
+Configure miss: sys/event.h
+Configure miss: xfs/xfs.h usability
+Configure miss: xfs/xfs.h presence
+Configure miss: xfs/xfs.h
+Configure miss: system miniupnpc library
+Configure miss: lrintf
+Configure miss: htonll
+Configure miss: ntohll
+Configure miss: _configthreadlocale
+Configure miss: library containing quotacursor_skipidtype
+Configure miss: sys/event.h usability
+Configure miss: sys/event.h presence
+Configure miss: sys/event.h
+Configure miss: xfs/xfs.h usability
+Configure miss: xfs/xfs.h presence
+Configure miss: xfs/xfs.h
+Configure miss: system miniupnpc library
